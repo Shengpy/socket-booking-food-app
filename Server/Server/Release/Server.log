@@ -1,0 +1,31 @@
+﻿  stdafx.cpp
+  Server.cpp
+  ServerDlg.cpp
+D:\Server\Server\ServerDlg.cpp(112,10): warning C4101: 'p2': unreferenced local variable
+D:\Server\Server\ServerDlg.cpp(127,2): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Server\Server\ServerDlg.cpp(167,12): warning C4996: 'WSAAsyncSelect': Use WSAEventSelect() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+D:\Server\Server\ServerDlg.cpp(281,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Server\Server\ServerDlg.cpp(311,27): warning C4244: 'argument': conversion from 'wchar_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=char
+          ]
+D:\Server\Server\ServerDlg.cpp(332,17): warning C4018: '<': signed/unsigned mismatch
+D:\Server\Server\ServerDlg.cpp(374,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Server\Server\ServerDlg.cpp(454,22): warning C4129: 'D': unrecognized character escape sequence
+D:\Server\Server\ServerDlg.cpp(483,21): warning C4129: 'D': unrecognized character escape sequence
+D:\Server\Server\ServerDlg.cpp(509,20): warning C4129: 'D': unrecognized character escape sequence
+D:\Server\Server\ServerDlg.cpp(626,20): warning C4129: 'D': unrecognized character escape sequence
+D:\Server\Server\ServerDlg.cpp(691,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Server\Server\ServerDlg.cpp(741,18): warning C4129: 'D': unrecognized character escape sequence
+D:\Server\Server\ServerDlg.cpp(822,18): warning C4129: 'D': unrecognized character escape sequence
+D:\Server\Server\ServerDlg.cpp(863,18): warning C4129: 'D': unrecognized character escape sequence
+D:\Server\Server\ServerDlg.cpp(899,18): warning C4129: 'D': unrecognized character escape sequence
+D:\Server\Server\ServerDlg.cpp(972,18): warning C4129: 'D': unrecognized character escape sequence
+D:\Server\Server\ServerDlg.cpp(1008,18): warning C4129: 'D': unrecognized character escape sequence
+D:\Server\Server\ServerDlg.cpp(1086,18): warning C4129: 'D': unrecognized character escape sequence
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 706 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Server.vcxproj -> D:\Server\Release\Server.exe

@@ -1,0 +1,15 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  ServerDlg.cpp
+C:\Users\Admin\Desktop\2_21127486_21127684\Source\Server\Server\ServerDlg.cpp(112,10): warning C4101: 'p2': unreferenced local variable
+C:\Users\Admin\Desktop\2_21127486_21127684\Source\Server\Server\ServerDlg.cpp(127,2): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Admin\Desktop\2_21127486_21127684\Source\Server\Server\ServerDlg.cpp(167,12): warning C4996: 'WSAAsyncSelect': Use WSAEventSelect() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\Admin\Desktop\2_21127486_21127684\Source\Server\Server\ServerDlg.cpp(311,27): warning C4244: 'argument': conversion from 'wchar_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=char
+          ]
+C:\Users\Admin\Desktop\2_21127486_21127684\Source\Server\Server\ServerDlg.cpp(332,17): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Admin\Desktop\2_21127486_21127684\Source\Server\Server\ServerDlg.cpp(281,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Admin\Desktop\2_21127486_21127684\Source\Server\Server\ServerDlg.cpp(374,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Admin\Desktop\2_21127486_21127684\Source\Server\Server\ServerDlg.cpp(691,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Server.vcxproj -> C:\Users\Admin\Desktop\2_21127486_21127684\Source\Server\Debug\Server.exe

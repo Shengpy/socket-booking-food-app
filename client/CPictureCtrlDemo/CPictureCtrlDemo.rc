@@ -1,0 +1,246 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)\r\n"
+    "LANGUAGE 7, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\CPictureCtrlDemo.rc2""  // Nicht mit Microsoft Visual C++ bearbeitete Ressourcen\r\n"
+    "#include ""l.DEU\\afxres.rc""      // Standardkomponenten\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\CPictureCtrlDemo.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Info über CPictureCtrlDemo"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "CPictureCtrlDemo, Version 1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) Tobias Eiseler 2008",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_CPICTURECTRLDEMO_DIALOG DIALOGEX 0, 0, 519, 205
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "CPictureCtrlDemo"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "",IDC_STATIC_PICTURE,413,24,88,63
+    GROUPBOX        "Menu",IDC_STATIC,401,15,111,80
+    PUSHBUTTON      "<",IDC_BTN_Back,415,115,35,14
+    PUSHBUTTON      ">",IDC_BTN_Next,465,115,33,14
+    EDITTEXT        IDC_EDIT1,402,99,110,14,ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "Book",IDC_STATIC,263,14,122,45
+    COMBOBOX        IDC_COMBO_Food,267,24,114,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Choose",IDC_Choose_Combo,329,41,50,13
+    EDITTEXT        IDC_EDT_Quantity,267,42,40,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,307,41,12,14
+    GROUPBOX        "Ordered",IDC_STATIC,264,61,122,103
+    CONTROL         "",IDC_LIST_CTRL_Ordered,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,267,72,116,89
+    LTEXT           "Total Price:",IDC_STATIC,265,169,41,10
+    EDITTEXT        IDC_EDIT3,308,166,76,14,ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "Delete",IDC_BTN_Del,266,183,50,14
+    PUSHBUTTON      "BOOK",IDC_BTN_Book,333,183,50,14
+    GROUPBOX        "Connect",IDC_STATIC,124,14,124,90
+    LTEXT           "IP:",IDC_STATIC,131,28,10,8
+    LTEXT           "User:",IDC_STATIC,129,46,19,8
+    LTEXT           "Phone:",IDC_STATIC,128,66,24,8
+    EDITTEXT        IDC_IP,153,25,87,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_USER,153,43,86,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Phone,155,62,84,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Login",IDC_LOGIN,135,83,39,14
+    PUSHBUTTON      "Logout",IDC_LOGOUT,193,83,39,14
+    GROUPBOX        "Payment",IDC_STATIC,123,117,125,73
+    CONTROL         "Cash",IDC_RAD_Cash,"Button",BS_AUTORADIOBUTTON,139,131,32,10
+    CONTROL         "Credit card",IDC_RAD_Credit_card,"Button",BS_AUTORADIOBUTTON,139,148,52,10
+    LTEXT           "Card Info:",IDC_Card_Info,131,169,34,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDT_Card_Info,167,166,75,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    GROUPBOX        "Message",IDC_STATIC,7,33,112,152
+    EDITTEXT        IDC_MSGBOX,7,46,109,122,ES_MULTILINE | NOT WS_BORDER | WS_VSCROLL
+    EDITTEXT        IDC_Request,7,171,74,14,ES_AUTOHSCROLL
+    GROUPBOX        "Request",IDC_STATIC,399,135,102,52
+    PUSHBUTTON      "See Menu",IDC_Send,424,155,50,14
+    PUSHBUTTON      "Send",IDC_BUTTON1,81,171,37,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040704e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Firmenname>"
+            VALUE "FileDescription", "TODO: <Dateibeschreibung>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "CPictureCtrlDemo.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Firmenname>. Alle Rechte vorbehalten."
+            VALUE "OriginalFilename", "CPictureCtrlDemo.exe"
+            VALUE "ProductName", "TODO: <Produktname>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x407, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_CPICTURECTRLDEMO_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 512
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 198
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_CPICTURECTRLDEMO_DIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&Info über CPictureCtrlDemo..."
+END
+
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+LANGUAGE 7, 1
+#pragma code_page(1252)
+#include "res\CPictureCtrlDemo.rc2"  // Nicht mit Microsoft Visual C++ bearbeitete Ressourcen
+#include "l.DEU\afxres.rc"      // Standardkomponenten
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
